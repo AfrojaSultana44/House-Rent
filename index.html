@@ -33,6 +33,7 @@
               "color-secondary": "rgb(115, 115, 115)",
               "color-hover": "rgb(73, 73, 73)",
               "color-bg": "rgb(171, 239, 95)",
+              "color-bg-light": "rgba(171, 239, 95, 0.5)",
               "color-neutral": "rgb(28, 28, 28)",
               "color-bg-secondary": "rgb(255, 255, 255)",
             },
@@ -45,9 +46,9 @@
     </script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
+    <header>
       <!-- Navbar starts -->
-      <nav class="flex items-center justify-between p-12">
+      <nav class="container mx-auto flex items-center justify-between py-12">
         <div class="flex items-center">
           <span
             class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1"
@@ -115,6 +116,31 @@
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
+      <!-- Banner section starts -->
+      <section class="container mx-auto">
+        <div class="flex flex-col items-center justify-center text-center">
+          <img src="./assets/banner.png" alt="Banner" />
+          <h1 class="text-color-primary font-extrabold text-[64px] mt-6">
+            A barn house of this design has a striking appearance
+          </h1>
+          <p
+            class="text-color-hover text-[16px] font-medium mt-6 mb-10 lg:w-5/6"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <button
+            class="btn btn-primary rounded-full bg-color-bg-light border border-color-bg text-color-primary font-bold text-xl"
+          >
+            View Details
+            <span
+              class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1"
+              ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
+            ></span>
+          </button>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
