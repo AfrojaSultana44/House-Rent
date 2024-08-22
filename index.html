@@ -29,6 +29,12 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "color-primary": "rgb(33, 33, 33)",
+              "color-secondary": "rgb(115, 115, 115)",
+              "color-hover": "rgb(73, 73, 73)",
+              "color-bg": "rgb(171, 239, 95)",
+              "color-neutral": "rgb(28, 28, 28)",
+              "color-bg-secondary": "rgb(255, 255, 255)",
             },
             fontFamily: {
               manrope: ["Manrope", "sans-serif"],
@@ -39,7 +45,77 @@
     </script>
   </head>
   <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto">
+      <!-- Navbar starts -->
+      <nav class="flex items-center justify-between p-12">
+        <div class="flex items-center">
+          <span
+            class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1"
+            ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
+          ></span>
+          <h2 class="text-color-primary text-[32px] font-extrabold ml-2">
+            Rinterio
+          </h2>
+        </div>
+        <ul
+          class="flex items-center justify-between space-x-8 text-color-secondary font-normal text-[16px]"
+        >
+          <li
+            class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
+          >
+            <a href="">Home</a>
+          </li>
+          <li
+            class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
+          >
+            <a href="">Services</a>
+          </li>
+          <li
+            class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
+          >
+            <a href="">Portfolio</a>
+          </li>
+          <li
+            class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
+          >
+            <a href="">Blog</a>
+          </li>
+          <li
+            class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
+          >
+            <a href="">Contact us</a>
+          </li>
+        </ul>
+        <div class="flex items-center space-x-6">
+          <div
+            class="h-[48px] w-[48px] rounded-full bg-color-bg-secondary border border-gray-200 flex items-center justify-center"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass text-color-secondary text-[18px]"
+            ></i>
+          </div>
+          <div
+            class="h-[48px] w-[48px] rounded-full bg-color-bg-secondary border border-gray-200 flex items-center justify-center"
+          >
+            <i
+              class="fa-solid fa-cart-shopping text-color-secondary text-[18px]"
+            ></i>
+          </div>
+          <button
+            class="btn btn-primary rounded-full bg-color-bg border-none text-color-neutral font-extrabold text-xl"
+          >
+            Book Consult
+            <span
+              class="bg-color-neutral w-[32px] h-[32px] rounded-full text-center p-1"
+              ><i class="fa-solid fa-arrow-right-long -rotate-45 text-white"></i
+            ></span>
+          </button>
+        </div>
+        <div class="lg:hidden sm:block">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
   </body>
