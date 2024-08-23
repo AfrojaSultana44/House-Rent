@@ -40,6 +40,7 @@
               "color-bg-blue": "rgba(119, 170, 234, 1)",
               "color-neutral": "rgb(28, 28, 28)",
               "color-bg-secondary": "rgb(255, 255, 255)",
+              "btn-bg": "rgba(171, 239, 95, 0.2)",
             },
             fontFamily: {
               manrope: ["Manrope", "sans-serif"],
@@ -279,15 +280,15 @@
           class="flex flex-col justify-center items-center text-center space-y-6"
         >
           <button
-            class="btn rounded-full text-color-hover text-[16px] font-bold bg-[rgba(171, 239, 95, 0.2)] border-none"
+            class="btn rounded-full text-[#494949] text-[16px] font-bold bg-btn-bg border-none"
           >
             <span><i class="fa-solid fa-arrow-right-long"></i></span>Explore our
             Latest works
           </button>
-          <h2 class="text-color-primary font-bold text-5xl">
+          <h2 class="text-[#212121] font-bold text-5xl">
             Our Latest Portfolio
           </h2>
-          <p class="text-color-hover font-medium lg:w-3/5">
+          <p class="text-[#494949] font-medium lg:w-3/5">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
@@ -347,6 +348,91 @@
           </div>
           <div class="border border-[#E9E9E9] rounded-2xl p-4">
             <img class="w-full" src="./assets/img5.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Discuss section starts -->
+      <section
+        class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-center bg-cover py-24"
+      >
+        <div class="container mx-auto px-36">
+          <div
+            class="flex flex-col justify-center items-center text-center space-y-6"
+          >
+            <button
+              class="btn rounded-full text-[#494949] text-[16px] font-bold bg-btn-bg border-none"
+            >
+              <span><i class="fa-solid fa-arrow-right-long"></i></span>Let’s
+              Connect
+            </button>
+            <h2 class="text-[#212121] font-bold text-5xl">
+              Let’s Discuss Next Project
+            </h2>
+            <p class="text-[#494949] font-medium lg:w-4/5">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+          <!-- Form -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
+            <div>
+              <input
+                class="w-full bg-[#FFFFFF] p-5 rounded-full text-[#A0A0A0] font-medium text-[16px]"
+                placeholder="First Name*"
+                type="text"
+                name=""
+                id=""
+              />
+            </div>
+            <div>
+              <input
+                class="w-full bg-[#FFFFFF] p-5 rounded-full text-[#A0A0A0] font-medium text-[16px]"
+                placeholder="Last Name*"
+                type="text"
+                name=""
+                id=""
+              />
+            </div>
+            <div>
+              <input
+                class="w-full bg-[#FFFFFF] p-5 rounded-full text-[#A0A0A0] font-medium text-[16px]"
+                placeholder="Phone Number*"
+                type="number"
+                name=""
+                id=""
+              />
+            </div>
+            <div>
+              <input
+                class="w-full bg-[#FFFFFF] p-5 rounded-full text-[#A0A0A0] font-medium text-[16px]"
+                placeholder="Email Number*"
+                type="email"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="col-span-2">
+              <textarea
+                class="w-full bg-[#FFFFFF] rounded-[32px] p-5 text-[#A0A0A0] font-medium text-[16px]"
+                placeholder="Write your message here"
+                name=""
+                id=""
+                rows="7"
+              ></textarea>
+            </div>
+
+            <button
+              class="btn col-span-2 rounded-full bg-[#ABEF5F] border-none text-[#1C1C1C] font-extrabold text-xl"
+            >
+              Book Consult
+              <span
+                class="bg-[#1C1C1C] w-[32px] h-[32px] rounded-full text-center p-1"
+                ><i
+                  class="fa-solid fa-arrow-right-long -rotate-45 text-white"
+                ></i
+              ></span>
+            </button>
           </div>
         </div>
       </section>
