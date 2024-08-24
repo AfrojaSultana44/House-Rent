@@ -56,14 +56,16 @@
     >
       <!-- Navbar starts -->
       <nav
-        class="lg:container mx-auto flex items-center justify-between px-5 lg:px-0 py-12"
+        class="lg:container mx-auto flex items-center justify-between px-5 py-8 lg:px-0 lg:py-12"
       >
         <div class="flex items-center">
           <span
             class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1"
             ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
           ></span>
-          <h2 class="text-color-primary text-[32px] font-extrabold ml-2">
+          <h2
+            class="text-color-primary text-[28px] lg:text-[32px] font-extrabold ml-2"
+          >
             Rinterio
           </h2>
         </div>
@@ -129,13 +131,17 @@
       </nav>
       <!-- Banner section starts -->
       <section class="container mx-auto">
-        <div class="flex flex-col items-center justify-center text-center">
+        <div
+          class="flex flex-col items-center justify-center text-center px-5 lg:px-0"
+        >
           <img src="./assets/banner.png" alt="Banner" />
-          <h1 class="text-color-primary font-extrabold text-[64px] mt-6">
+          <h1
+            class="text-color-primary font-extrabold text-[28px] lg:text-[64px] mt-4 lg:mt-6"
+          >
             A barn house of this design has a striking appearance
           </h1>
           <p
-            class="text-color-hover text-[16px] font-medium mt-6 mb-10 lg:w-5/6"
+            class="text-[#494949] text-[14px] lg:text-[16px] font-medium mt-4 mb-5 lg:mt-6 lg:mb-10 lg:w-5/6"
           >
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and
@@ -155,31 +161,44 @@
     </header>
     <main class="mt-24">
       <!-- About section starts -->
-      <!-- <section class="bg-slate-100">
+      <section class="bg-slate-100">
         <div
-          class="container mx-auto py-24 flex items-center justify-between space-x-10"
+          class="w-full lg:container mx-auto px-5 lg:px-0 py-24 flex flex-col lg:flex-row items-center lg:justify-between lg:items-stretch space-x-0 space-y-6 lg:space-y-0 lg:space-x-10"
         >
-          <div class="relative flex-1 space-y-6">
-            <button
-              class="btn rounded-full text-color-hover text-[16px] font-bold bg-white border-none"
+          <div class="relative w-full space-y-6">
+            <div class="text-center lg:text-left">
+              <button
+                class="btn rounded-full text-color-hover text-[16px] font-bold bg-white border-none"
+              >
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>About
+                Us
+              </button>
+            </div>
+            <h2
+              class="text-color-primary font-bold text-2xl lg:text-5xl text-center lg:text-left"
             >
-              <span><i class="fa-solid fa-arrow-right-long"></i></span>About Us
-            </button>
-            <h2 class="text-color-primary font-bold text-5xl">
               We design thoughtful, <br />
               liveable spaces
             </h2>
-            <p class="text-color-hover font-medium">
+            <p
+              class="text-color-hover font-medium text-[14px] lg:text-[16px] text-center lg:text-left"
+            >
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents.
             </p>
             <div
-              class="bg-white rounded-[18px] p-6 flex justify-between items-center space-x-6"
+              class="bg-white rounded-[18px] p-6 flex items-start lg:items-center space-x-5 lg:space-x-6"
             >
-              <img src="./assets/commercial.png" alt="" />
-              <div>
-                <h4 class="text-color-hover font-extrabold text-xl mb-3">
+              <img
+                class="w-[40px] h-[40px] lg:w-[64px] lg:h-[64px]"
+                src="./assets/commercial.png"
+                alt=""
+              />
+              <div class="grow">
+                <h4
+                  class="text-color-hover text-[16px] font-extrabold lg:text-xl mb-3"
+                >
                   Commercial
                 </h4>
                 <p
@@ -191,11 +210,17 @@
               </div>
             </div>
             <div
-              class="bg-white rounded-[18px] p-6 flex justify-between items-center space-x-6"
+              class="bg-white rounded-[18px] p-6 flex items-start lg:items-center space-x-5 lg:space-x-6"
             >
-              <img src="./assets/residential.png" alt="" />
-              <div>
-                <h4 class="text-color-hover font-extrabold text-xl mb-3">
+              <img
+                class="w-[40px] h-[40px] lg:w-[64px] lg:h-[64px]"
+                src="./assets/residential.png"
+                alt=""
+              />
+              <div class="grow">
+                <h4
+                  class="text-color-hover font-extrabold text-[16px] lg:text-xl mb-3"
+                >
                   Residential
                 </h4>
                 <p
@@ -206,18 +231,18 @@
                 </p>
               </div>
             </div>
-            <div class="absolute -top-20 -left-10">
+            <div class="hidden lg:block absolute -top-20 -left-10">
               <img src="./assets/Vector.png" alt="" />
             </div>
           </div>
-          <div class="flex-1">
-            <img class="w-full" src="./assets/Rectangle.png" alt="" />
+          <div class="w-full h-full border border-red-500">
+            <img class="w-full h-full" src="./assets/Rectangle.png" alt="" />
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- Work Process section starts -->
-      <!-- <section class="bg-slate-100">
-        <div class="container mx-auto pb-24">
+      <section class="bg-slate-100">
+        <div class="w-full lg:container mx-auto px-5 lg:px-0 pb-24">
           <div
             class="flex flex-col justify-center items-center text-center space-y-6"
           >
@@ -227,10 +252,12 @@
               <span><i class="fa-solid fa-arrow-right-long"></i></span>How we
               works
             </button>
-            <h2 class="text-color-primary font-bold text-5xl">
+            <h2 class="text-color-primary font-bold text-2xl lg:text-5xl">
               Our Works Process
             </h2>
-            <p class="text-color-hover font-medium lg:w-3/5">
+            <p
+              class="text-color-hover font-medium text-[14px] lg:text-[16px] lg:w-3/5"
+            >
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents.
@@ -279,9 +306,9 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- Latest Portfolio starts -->
-      <!-- <section class="container mx-auto py-24">
+      <section class="w-full lg:container mx-auto px-5 lg:px-0 py-24">
         <div
           class="flex flex-col justify-center items-center text-center space-y-6"
         >
@@ -291,77 +318,106 @@
             <span><i class="fa-solid fa-arrow-right-long"></i></span>Explore our
             Latest works
           </button>
-          <h2 class="text-[#212121] font-bold text-5xl">
+          <h2 class="text-[#212121] font-bold text-2xl lg:text-5xl">
             Our Latest Portfolio
           </h2>
-          <p class="text-[#494949] font-medium lg:w-3/5">
+          <p
+            class="text-[#494949] font-medium text-[14px] lg:text-[16px] lg:w-3/5"
+          >
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
           <div
-            class="flex justify-between items-center col-span-2 border border-[#E9E9E9] rounded-2xl p-4 space-x-6"
+            class="flex flex-col lg:flex-row justify-between items-start col-span-2 border border-[#E9E9E9] rounded-2xl p-6 lg:p-4 space-y-6 lg:space-x-6"
           >
-            <div>
-              <img class="w-full" src="./assets/img1.png" alt="" />
+            <div class="w-full lg:basis-[260px]">
+              <img
+                class="w-full h-[179px] object-fill rounded-3xl"
+                src="./assets/img1.png"
+                alt=""
+              />
             </div>
-            <div>
-              <h4 class="text-[#494949] text-2xl font-extrabold">Commercial</h4>
+            <div class="basis-full lg:basis-[calc(100%-260px)]">
+              <h4 class="text-[#494949] text-xl lg:text-2xl font-extrabold">
+                Commercial
+              </h4>
               <p class="text-[#737373] text-[16px] font-medium mt-4 mb-5">
                 The barn house captivates with its blend of rustic charm and
                 modern. The barn house captivates with its blend of rustic charm
                 and modern .
               </p>
-              <h4 class="bg-white border-none text-[#212121] font-bold text-xl">
+              <h4
+                class="bg-white border-none text-[#212121] font-bold text-xl flex justify-start items-center"
+              >
                 View Details
                 <span
-                  class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1 ml-1"
+                  class="bg-color-bg w-[32px] h-[32px] rounded-full flex justify-center items-center p-1 ml-2"
                   ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
                 ></span>
               </h4>
             </div>
           </div>
-          <div class="border border-[#E9E9E9] rounded-2xl p-4">
-            <img class="w-full" src="./assets/img2.png" alt="" />
+          <div class="border border-[#E9E9E9] rounded-2xl p-6 lg:p-4">
+            <img
+              class="w-full h-[179px] rounded-3xl"
+              src="./assets/img2.png"
+              alt=""
+            />
           </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
-          <div class="border border-[#E9E9E9] rounded-2xl p-4">
-            <img class="w-full" src="./assets/img3.png" alt="" />
+          <div class="border border-[#E9E9E9] rounded-2xl p-6 lg:p-4">
+            <img
+              class="w-full h-[179px] rounded-3xl"
+              src="./assets/img3.png"
+              alt=""
+            />
           </div>
           <div
-            class="flex justify-between items-center col-span-2 border border-[#E9E9E9] rounded-2xl p-4 space-x-6"
+            class="flex flex-col lg:flex-row justify-between items-start col-span-2 border border-[#E9E9E9] rounded-2xl p-6 lg:p-4 space-y-6 lg:space-x-6"
           >
-            <div>
-              <img class="w-full" src="./assets/img4.png" alt="" />
+            <div class="w-full lg:basis-[260px]">
+              <img
+                class="w-full h-[179px] object-fill rounded-3xl"
+                src="./assets/img4.png"
+                alt=""
+              />
             </div>
-            <div>
-              <h4 class="text-[#494949] text-2xl font-extrabold">Commercial</h4>
+            <div class="w-full lg:basis-[calc(100%-260px)]">
+              <h4 class="text-[#494949] text-xl lg:text-2xl font-extrabold">
+                Commercial
+              </h4>
               <p class="text-[#737373] text-[16px] font-medium mt-4 mb-5">
                 The barn house captivates with its blend of rustic charm and
-                modern. The barn house captivates with its blend of rustic charm
-                and modern .
+                modern.
               </p>
-              <h4 class="bg-white border-none text-[#212121] font-bold text-xl">
+              <h4
+                class="bg-white border-none text-[#212121] font-bold text-xl flex justify-start items-center"
+              >
                 View Details
                 <span
-                  class="bg-color-bg w-[32px] h-[32px] rounded-full text-center p-1 ml-1"
+                  class="bg-color-bg w-[32px] h-[32px] rounded-full flex justify-center items-center p-1 ml-2"
                   ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
                 ></span>
               </h4>
             </div>
           </div>
-          <div class="border border-[#E9E9E9] rounded-2xl p-4">
-            <img class="w-full" src="./assets/img5.png" alt="" />
+          <div class="border border-[#E9E9E9] rounded-2xl p-6 lg:p-4">
+            <img
+              class="w-full h-[179px] rounded-3xl"
+              src="./assets/img5.png"
+              alt=""
+            />
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- Discuss section starts -->
-      <!-- <section
+      <section
         class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-center bg-cover py-8 md:py-16 lg:py-24"
       >
-        <div class="container mx-auto px-6 md:px-20 lg:px-36">
+        <div class="w-full lg:container mx-auto px-6 md:px-20 lg:px-36">
           <div
             class="flex flex-col justify-center items-center text-center space-y-6"
           >
@@ -371,10 +427,12 @@
               <span><i class="fa-solid fa-arrow-right-long"></i></span>Let’s
               Connect
             </button>
-            <h2 class="text-[#212121] font-bold text-5xl">
+            <h2 class="text-[#212121] font-bold text-2xl lg:text-5xl">
               Let’s Discuss Next Project
             </h2>
-            <p class="text-[#494949] font-medium lg:w-4/5">
+            <p
+              class="text-[#494949] font-medium text-[14px] lg:text-[16px] lg:w-4/5"
+            >
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents.
@@ -440,9 +498,135 @@
             </button>
           </div>
         </div>
-      </section> -->
+      </section>
+      <!-- Unique section -->
+      <section class="lg:container mx-auto my-24">
+        <h2 class="text-center w-1/2 mx-auto text-2xl font-bold">
+          What Homeowners Want to Know
+        </h2>
+        <p class="text-center w-1/2 mx-auto">
+          Uncover insights into the home design process with answers to the
+          questions that matter most to homeowners. Get the clarity you need to
+          bring your dream home to life.
+        </p>
+
+        <div class="w-3/4 mx-auto my-16">
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-bold">
+              How do I start the process of designing a custom home?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Begin by scheduling a consultation where we’ll discuss your
+                vision, budget, and timeline.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Can I customize one of your pre-designed home plans?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Yes, our pre-designed plans can be customized to fit your
+                specific needs.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              How long does the design process take?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Typically, it takes 3-6 months, depending on the complexity of
+                the design.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Do you provide 3D renderings of the designs?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Yes, we offer 3D renderings to help you visualize your future
+                home.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Can I choose the materials for my home?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Absolutely! You have full control over material and finish
+                selections.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Do you handle the construction permits?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Yes, we assist with obtaining all necessary building permits and
+                approvals.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              How much does a custom home design cost?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Costs vary based on size and complexity. We provide detailed
+                quotes after the consultation.
+              </p>
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-200 my-5 border border-slate-200 rounded-lg"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Do you offer interior design services?
+            </div>
+            <div class="collapse-content bg-base-100 p-4">
+              <p>
+                Yes, we offer 3D renderings to help you visualize your future
+                home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- <footer class="bg-[#1C1C1C]">
+    <footer class="bg-[#1C1C1C]">
       <div class="container mx-auto px-8 md:px-16 lg:px-60 py-24">
         <div class="flex flex-col items-center justify-center">
           <div class="flex items-center mb-4">
@@ -459,8 +643,7 @@
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
           <ul
-            class="flex flex-col items-center justify-between md:flex-row gap-8
-             text-[#E9E9E9] font-medium text-[16px] my-8 md:my-12"
+            class="flex flex-col items-center justify-between md:flex-row space-y-8 lg:space-y-0 space-x-0 lg:space-x-12 text-[#E9E9E9] font-medium text-[16px] my-8 md:my-12"
           >
             <li
               class="hover:text-color-hover hover:font-[800] duration-300 ease-in-out"
@@ -499,6 +682,6 @@
           </button>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
