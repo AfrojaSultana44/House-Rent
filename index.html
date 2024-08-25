@@ -419,9 +419,11 @@
       </section>
       <!-- Discuss section starts -->
       <section
-        class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-center bg-cover py-8 md:py-16 lg:py-24"
+        class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-center bg-cover relative 
+        before:absolute before:left-0 before:top-0 before:content-[''] before:w-full before:h-full
+         before:bg-[rgb(244,244,244)] before:opacity-50 z-0 before:-z-10 py-8 md:py-16 lg:py-24"
       >
-        <div class="w-full lg:container mx-auto px-6 md:px-20 lg:px-36">
+        <div class="z-20 w-full lg:container mx-auto px-6 md:px-20 lg:px-36">
           <div
             class="flex flex-col justify-center items-center text-center space-y-6"
           >
